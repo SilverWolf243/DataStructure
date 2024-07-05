@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Linear">
+      <UniqueIdentifier>{81f98539-f84e-4bbd-b4e0-515f76bd9bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NonLinear">
+      <UniqueIdentifier>{892b5cb6-68be-4660-b466-dcd9cc4df3fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
