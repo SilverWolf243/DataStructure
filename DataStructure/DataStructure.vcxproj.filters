@@ -8,4 +8,14 @@
       <UniqueIdentifier>{892b5cb6-68be-4660-b466-dcd9cc4df3fe}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DynamicArray.cpp">
+      <Filter>Linear</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>Linear</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
