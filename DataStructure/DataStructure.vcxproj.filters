@@ -14,11 +14,17 @@
     </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Deque.cpp">
+      <Filter>Linear</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DynamicArray.h">
       <Filter>Linear</Filter>
     </ClInclude>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Deque.h">
+      <Filter>Linear</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

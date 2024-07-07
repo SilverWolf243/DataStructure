@@ -135,10 +135,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Deque.h" />
     <ClInclude Include="DynamicArray.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Deque.cpp" />
     <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp">
