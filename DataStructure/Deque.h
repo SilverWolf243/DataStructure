@@ -9,7 +9,7 @@ private:
 	int _size;
 	T*  _dataPtr;
 public:
-	Deque() : _frontIndex(0), _backIndex(0), _dataPtr(nullptr), _size(0)
+	Deque() : _frontIndex(0), _backIndex(0), _dataPtr(nullptr), _size(0), _capacity(0)
 	{
 	
 	}
@@ -50,6 +50,12 @@ public:
 
 	void PopFront() 
 	{
+		if (Empty())
+		{
+			cout << "Size 0, Pop Error" << endl;
+			return;
+		}
+
 		int newSize = _size - 1;
 		_frontIndex = (_frontIndex + 1) % _capacity;
 		_size = newSize;
@@ -57,6 +63,12 @@ public:
 
 	void PopBack() 
 	{
+		if (Empty())
+		{
+			cout << "Size 0, Pop Error" << endl;
+			return;
+		}
+
 		int newSize = _size - 1;
 		_backIndex = (_backIndex - 1 + _capacity) % _capacity;
 		_size = newSize;
