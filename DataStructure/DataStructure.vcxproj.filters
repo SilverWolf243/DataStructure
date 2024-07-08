@@ -20,6 +20,9 @@
     <ClCompile Include="LinkedList.cpp">
       <Filter>Linear</Filter>
     </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>Linear</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DynamicArray.h">
@@ -30,6 +33,9 @@
       <Filter>Linear</Filter>
     </ClInclude>
     <ClInclude Include="LinkedList.h">
+      <Filter>Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
       <Filter>Linear</Filter>
     </ClInclude>
   </ItemGroup>

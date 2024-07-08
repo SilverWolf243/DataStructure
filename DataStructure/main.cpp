@@ -1,15 +1,17 @@
 #include "pch.h"
-#include "LinkedList.h"
+#include "Queue.h"
 int main() 
 {
-	LinkedList<int> l;
+	Queue<int> l;
+	l.Push(3);
+	l.Push(4);
+	l.Push(1);
+	l.Push(2);
 
-	l.PushBack(2);
-	l.PushBack(3);
-	l.PushFront(1);
-	l.PopBack();
-	l.PopFront();
-	l.Debug();
-
+	while (l.Empty() == false)
+	{
+		cout << l.Front() << endl;
+		l.Pop();
+	}
 	return 0;
 }
