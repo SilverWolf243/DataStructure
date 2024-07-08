@@ -1,19 +1,15 @@
 #include "pch.h"
-#include "Deque.h"
+#include "LinkedList.h"
 int main() 
 {
-	Deque<int> dq;
-	dq.PushBack(1);
-	dq.PushBack(2);
-	dq.PushBack(3);
-	dq.PushFront(4);
-	dq.PopFront();
-	dq.PopBack();
+	LinkedList<int> l;
 
-	// 4 1 2 3
-	for (int i = 0; i < dq.Size(); i++) 
-	{
-		cout << dq[i] << endl;
-	}
+	l.PushBack(2);
+	l.PushBack(3);
+	l.PushFront(1);
+	l.PopBack();
+	l.PopFront();
+	l.Debug();
+
 	return 0;
 }

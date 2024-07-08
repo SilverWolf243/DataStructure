@@ -137,11 +137,13 @@
   <ItemGroup>
     <ClInclude Include="Deque.h" />
     <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Deque.cpp" />
     <ClCompile Include="DynamicArray.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
