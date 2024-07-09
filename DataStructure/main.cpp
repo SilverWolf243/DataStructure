@@ -1,17 +1,17 @@
 #include "pch.h"
-#include "Queue.h"
+#include "Stack.h"
 int main() 
 {
-	Queue<int> l;
-	l.Push(3);
-	l.Push(4);
-	l.Push(1);
-	l.Push(2);
+	Stack<int> s;
+	s.Push(3);
+	s.Push(4);
+	s.Push(1);
+	s.Push(2);
 
-	while (l.Empty() == false)
+	while (s.Empty() == false)
 	{
-		cout << l.Front() << endl;
-		l.Pop();
+		cout << s.Top() << endl;
+		s.Pop();
 	}
 	return 0;
 }

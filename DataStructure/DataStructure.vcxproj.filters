@@ -23,6 +23,9 @@
     <ClCompile Include="Queue.cpp">
       <Filter>Linear</Filter>
     </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Linear</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DynamicArray.h">
@@ -36,6 +39,9 @@
       <Filter>Linear</Filter>
     </ClInclude>
     <ClInclude Include="Queue.h">
+      <Filter>Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
       <Filter>Linear</Filter>
     </ClInclude>
   </ItemGroup>
